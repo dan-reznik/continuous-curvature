@@ -1,4 +1,5 @@
 * A mathematica notebook for calculating a plane curve with continuous curvature.
+* Animations of the experiment as .gif and .avi. On youtube: https://www.youtube.com/watch?v=EjRqZaAv5c8
 * The curvature profile is piecewise parabolic (3 parabolic segments), parametrized from 0 < s < 4.
 
 k[s]:
