@@ -1,10 +1,12 @@
-- A mathematica notebook shows for calculating a plane curve with continuous curvature.
-- The curvature profile is piecewise parabolic (3 parabolic segments).
-- The plane curve is computed in two steps:
+* A mathematica notebook for calculating a plane curve with continuous curvature.
+* The curvature profile is piecewise parabolic (3 parabolic segments), parametrized from 0 < s < 4.
+
+The plane curve is computed in two steps:
 
 (1) obtaining the angle function as a definite integral from the profile, in closed-form.
 (2) obtaining the curve itself by numerically integrating the cosine and sine of the curvatures.
 
-The animation shows the resulting curve with the angular integral (1) scaled by a factor "a" which is varied from 0 to 2 in the animation, for curve length s = 0 to 4.
-Points at s=0,1,3,4 are drawn on curve.
-Curiously, with a slightly above 1, the curve seems to become "closed" (returns to its starting location). 
+* The animation shows the resulting curve with the angular integral (1) scaled by a factor "a" which is
+varied from 0 to 2 in the animation, for curve length s = 0 to 4.
+* Points at s=0,1,3,4 are drawn on curve.
+* Curiously, with a slightly above 1, the curve seems to become "closed" (returns to its starting location). 
