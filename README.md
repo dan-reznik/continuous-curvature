@@ -1,6 +1,6 @@
 # A mathematica notebook for calculating a plane curve with continuous curvature.
 
-![animated curve](integrated curvature.gif)
+![animated curve](https://github.com/dan-reznik/continuous-curvature/blob/master/integrated%20curvature.gif)
 
 ##  Animations of the experiment as .gif and .avi. On youtube: https://www.youtube.com/watch?v=EjRqZaAv5c8
 
