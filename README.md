@@ -1,16 +1,17 @@
-* A mathematica notebook for calculating a plane curve with continuous curvature.
+# A mathematica notebook for calculating a plane curve with continuous curvature.
 
 ![animated curve](integrated curvature.gif)
 
-* Animations of the experiment as .gif and .avi. On youtube: https://www.youtube.com/watch?v=EjRqZaAv5c8
-* The curvature profile is piecewise parabolic (3 parabolic segments), parametrized from 0 < s < 4.
+##  Animations of the experiment as .gif and .avi. On youtube: https://www.youtube.com/watch?v=EjRqZaAv5c8
+
+## The curvature profile is piecewise parabolic (3 parabolic segments), parametrized from 0 < s < 4.
 
 k[s]:
 s^2            : 0 <= s < 1,
 -(s - 2)^2 + 2 : 1 <= s < 3,
 (s - 4)^2      : 3 <= s < 4
 
-* The plane curve is computed in two steps:
+## The plane curve is computed in two steps:
 
 1. obtain the angle function as a definite integral from the curvature (w/ scaling param "a"), in closed-form.
 
