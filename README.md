@@ -1,6 +1,6 @@
 # Plane curve w/ even curvature function
 
-### We start defining a curvature profile k[s] as piecewise parabolic:
+### Define even curvature profile k[s], e.g., piecewise parabolic:
 
 k[s] is parametrized from 0 < s < 4 as follows:  
   
