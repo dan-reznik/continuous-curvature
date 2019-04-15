@@ -1,12 +1,9 @@
 # Calculating a plane curve with continuous curvature.
 
-![animated curve](https://github.com/dan-reznik/continuous-curvature/blob/master/integrated%20curvature.gif)
+### We start defining a curvature profile k[s] as piecewise parabolic:
 
-On [youtube](https://www.youtube.com/watch?v=EjRqZaAv5c8)
-
-### The curvature profile is piecewise parabolic (3 parabolic segments), parametrized from 0 < s < 4.
-
-k[s]:  
+k[s] is parametrized from 0 < s < 4, taking the following values:  
+  
 s^2            : 0 <= s < 1,  
 -(s - 2)^2 + 2 : 1 <= s < 3,  
 (s - 4)^2      : 3 <= s < 4  
@@ -18,7 +15,14 @@ s^2            : 0 <= s < 1,
 
 ![plane curve integral](https://github.com/dan-reznik/continuous-curvature/blob/master/from%20curvature%20to%20plane%20curve.png)
 
-* Note: curve is "started" at (0,0).
-* The animation shows curve(a,s) for 0<s<4, and "a" varied from 0 to 2 in steps of 0.01
+Note: curve is "started" at (0,0).
+
+### Animation
+
+* Below curve(a,s) is shown for 0<s<4, and "a" varied from 0 to 2 in steps of 0.01
 * Curve points at s=0,1,3,4 are drawn on curve.
-* Note curve surprisingly loops onto itself at a = 1.07761, 2.61733, 4.18347, ...  
+* Due to even symmetry, curve loops onto itself at a = 1.07761, 2.61733, 4.18347, ...  
+
+![animated curve](https://github.com/dan-reznik/continuous-curvature/blob/master/integrated%20curvature.gif)
+
+On [youtube](https://www.youtube.com/watch?v=EjRqZaAv5c8)
