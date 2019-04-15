@@ -14,7 +14,7 @@ Graphically:
 
 ### The plane curve is computed in two steps:
 
-1. Absolute angle of curve: the definite integral of curvature (w/ scaling param "a").
+1. Absolute angle of curve: the definite integral of curvature. Though not shown, assume a scaling parameter "a" is added to this integral.
 2. Absolute position (unit speed): integrate cosine and sine of absolute angle.
 
 <img src="https://github.com/dan-reznik/continuous-curvature/blob/master/from%20curvature%20to%20plane%20curve.png" width="50%">
