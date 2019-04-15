@@ -2,18 +2,18 @@
 
 ### We start defining a curvature profile k[s] as piecewise parabolic:
 
-k[s] is parametrized from 0 < s < 4, taking the following values:  
+k[s] is parametrized from 0 < s < 4 as follows:  
   
-s^2            : 0 <= s < 1,  
--(s - 2)^2 + 2 : 1 <= s < 3,  
-(s - 4)^2      : 3 <= s < 4  
+0 <= s < 1: s^2   
+1 <= s < 3: -(s - 2)^2 + 2    
+3 <= s < 4: (s - 4)^2    
 
 ### The plane curve is computed in two steps:
 
 1. obtain the angle function as a definite integral from the curvature (w/ scaling param "a"), in closed-form.
 2. Obtain the curve itself by numerically integrating the cosine and sine of the angle function.
 
-![plane curve integral](https://github.com/dan-reznik/continuous-curvature/blob/master/from%20curvature%20to%20plane%20curve.png)
+![plane curve integral|33%](https://github.com/dan-reznik/continuous-curvature/blob/master/from%20curvature%20to%20plane%20curve.png)
 
 Note: curve is "started" at (0,0).
 
