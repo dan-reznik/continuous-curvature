@@ -1,4 +1,4 @@
-# Calculating a plane curve with continuous curvature.
+# Plane curve w/ even curvature function
 
 ### We start defining a curvature profile k[s] as piecewise parabolic:
 
