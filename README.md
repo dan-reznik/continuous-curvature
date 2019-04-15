@@ -8,6 +8,10 @@ k[s] is parametrized from 0 < s < 4 as follows:
 1 <= s < 3: -(s - 2)^2 + 2    
 3 <= s < 4: (s - 4)^2    
 
+Graphically:
+
+![curv profile](https://github.com/dan-reznik/continuous-curvature/blob/master/curvature%20profile%20drawn%20on%20desmos.png)
+
 ### The plane curve is computed in two steps:
 
 1. obtain the angle function as a definite integral from the curvature (w/ scaling param "a"), in closed-form.
