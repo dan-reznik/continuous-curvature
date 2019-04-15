@@ -10,14 +10,14 @@ k[s] is parametrized from 0 < s < 4 as follows:
 
 Graphically:
 
-![curv profile](https://github.com/dan-reznik/continuous-curvature/blob/master/curvature%20profile%20drawn%20on%20desmos.png)
+<img src="https://github.com/dan-reznik/continuous-curvature/blob/master/curvature%20profile%20drawn%20on%20desmos.png" width="25%">
 
 ### The plane curve is computed in two steps:
 
 1. obtain the angle function as a definite integral from the curvature (w/ scaling param "a"), in closed-form.
 2. Obtain the curve itself by numerically integrating the cosine and sine of the angle function.
 
-![plane curve integral|33%](https://github.com/dan-reznik/continuous-curvature/blob/master/from%20curvature%20to%20plane%20curve.png)
+<img src="https://github.com/dan-reznik/continuous-curvature/blob/master/from%20curvature%20to%20plane%20curve.png" width="25%">
 
 Note: curve is "started" at (0,0).
 
